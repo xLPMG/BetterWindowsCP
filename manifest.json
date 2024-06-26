@@ -1,0 +1,13 @@
+{
+  "Name": "Better Windows CP",
+  "Author": "LPMG",
+  "Version": "1.3",
+  "Description": "Improves your windows and gives them a beautiful look.",
+  "UniqueID": "LPMG.BetterWindowsCP",
+  "MinimumApiVersion": "4.0.8",
+  "UpdateKeys": ["Nexus:4203"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.2.0"
+  }
+}
