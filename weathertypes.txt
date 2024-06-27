@@ -1,0 +1,14 @@
+Sunny
+    all seasons
+
+Rainy
+    Spring, Summer, Fall
+
+Debris
+    Spring, Fall
+
+Stormy
+    Spring, Summer, Fall
+
+Snowy
+    Winter
