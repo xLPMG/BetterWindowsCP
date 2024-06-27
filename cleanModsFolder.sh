@@ -1,2 +1,2 @@
 rm -rf "/Users/lpmg/Library/Application Support/Steam/steamapps/common/Stardew Valley/Contents/MacOS/mods/[CP] BetterWindowsCP"
-rm -rf "/Users/lpmg/Library/Application Support/Steam/steamapps/common/Stardew Valley/Contents/MacOS/mods/[CP-A] BetterWindowsCP-A"
+rm -rf "/Users/lpmg/Library/Application Support/Steam/steamapps/common/Stardew Valley/Contents/MacOS/mods/[CP-A] BetterWindowsCP"
