@@ -118,6 +118,30 @@
             "Season": "spring, summer",
             "Weather": "storm"
          }
+      },
+      {
+         "LogName": "Window#Type_1#Storm#Fall",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/fall_storm_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 800,
+            "Width": 16,
+            "Height": 32
+         },
+         "AnimationFrameTime": 60,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Season": "fall",
+            "Weather": "storm"
+         }
       }
    ]
 }
