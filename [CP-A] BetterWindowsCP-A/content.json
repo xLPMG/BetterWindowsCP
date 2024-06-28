@@ -70,6 +70,30 @@
             "Season": "spring, summer",
             "Weather": "rain"
          }
+      },
+      {
+         "LogName": "Window#Type_1#Rain#Fall",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/fall_rain_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 224,
+            "Y": 800,
+            "Width": 32,
+            "Height": 32
+         },
+         "AnimationFrameTime": 6,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Season": "fall",
+            "Weather": "rain"
+         }
       }
    ]
 }
