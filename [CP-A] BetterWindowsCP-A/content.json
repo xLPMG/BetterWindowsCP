@@ -48,27 +48,121 @@
          }
       },
       {
-         "LogName": "Window#Type_1#Rain#Spring,Summer",
+         "LogName": "Window#Type_1#Rain#all_seaons",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/window_1/spring_rain_furniture.png",
+         "FromFile": "assets/window_1/{{season}}_rain_furniture.png",
          "FromArea": {
             "X": 0,
             "Y": 0,
+            "Width": 16,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 800,
             "Width": 32,
+            "Height": 32
+         },
+         "AnimationFrameTime": 4,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Weather": "rain"
+         }
+      },
+      {
+         "LogName": "Window#Type_1#Storm#Spring,Summer",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/spring_storm_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 800,
+            "Width": 16,
+            "Height": 32
+         },
+         "AnimationFrameTime": 60,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Season": "spring, summer",
+            "Weather": "storm"
+         }
+      },
+      {
+         "LogName": "Window#Type_1#Storm#Fall",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/fall_storm_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 800,
+            "Width": 16,
+            "Height": 32
+         },
+         "AnimationFrameTime": 60,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Season": "fall",
+            "Weather": "storm"
+         }
+      },
+      {
+         "LogName": "Window#Type_1#GreenRain#all_seasons",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/green_rain_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 240,
+            "Y": 800,
+            "Width": 16,
+            "Height": 32
+         },
+         "AnimationFrameTime": 4,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Weather": "greenrain"
+         }
+      },
+      {
+         "LogName": "Window#Type_1#Snow#Winter",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_1/snow_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
             "Height": 32
          },
          "ToArea": {
             "X": 224,
             "Y": 800,
-            "Width": 32,
+            "Width": 16,
             "Height": 32
          },
-         "AnimationFrameTime": 6,
+         "AnimationFrameTime": 8,
          "AnimationFrameCount": 16,
          "When": {
-            "Season": "spring, summer",
-            "Weather": "rain"
+            "Season": "winter",
+            "Weather": "snow"
          }
       }
    ]
