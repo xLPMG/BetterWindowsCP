@@ -164,6 +164,52 @@
             "Season": "winter",
             "Weather": "snow"
          }
+      },
+      {
+         "LogName": "Window#Type_2#Sun#all_seasons",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_2/{{season}}_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 224,
+            "Y": 800,
+            "Width": 32,
+            "Height": 32
+         },
+         "AnimationFrameTime": 60,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Weather": "sun"
+         }
+      },
+      {
+         "LogName": "Window#Type_2#Wind#all_seasons",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/window_2/{{season}}_furniture.png",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 32
+         },
+         "ToArea": {
+            "X": 224,
+            "Y": 800,
+            "Width": 32,
+            "Height": 32
+         },
+         "AnimationFrameTime": 30,
+         "AnimationFrameCount": 16,
+         "When": {
+            "Weather": "wind"
+         }
       }
    ]
 }
