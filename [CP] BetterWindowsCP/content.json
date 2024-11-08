@@ -421,6 +421,412 @@
             "Width":131,
             "Height":110
          }
-      }
+     },
+     {
+      "_comment":"#### START TOWN INTERIOR DAY TIME ####",
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_furniture.png",
+      "FromArea":{
+         "X":0,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":16,
+         "Y":112,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "sun, wind"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_furniture.png",
+      "FromArea":{
+         "X":32,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":0,
+         "Y":128,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "sun, wind"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_rain_furniture.png",
+      "FromArea":{
+         "X":0,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":16,
+         "Y":112,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "rain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_rain_furniture.png",
+      "FromArea":{
+         "X":32,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":0,
+         "Y":128,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "rain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_storm_furniture.png",
+      "FromArea":{
+         "X":0,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":16,
+         "Y":112,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "storm"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_storm_furniture.png",
+      "FromArea":{
+         "X":32,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":0,
+         "Y":128,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "storm"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/greenrain_furniture.png",
+      "FromArea":{
+         "X":0,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":16,
+         "Y":112,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "greenrain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/greenrain_furniture.png",
+      "FromArea":{
+         "X":32,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":0,
+         "Y":128,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "greenrain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/winter_snow_furniture.png",
+      "FromArea":{
+         "X":0,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":16,
+         "Y":112,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Season": "winter",
+             "Weather": "snow"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/winter_snow_furniture.png",
+      "FromArea":{
+         "X":32,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":0,
+         "Y":128,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Season": "winter",
+             "Weather": "snow"
+       }
+   },
+   {
+      "_comment":"#### START TOWN INTERIOR NIGHT TIME ####",
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_furniture.png",
+      "FromArea":{
+         "X":16,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":96,
+         "Y":608,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "sun, wind"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_furniture.png",
+      "FromArea":{
+         "X":48,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":80,
+         "Y":624,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "sun, wind"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_rain_furniture.png",
+      "FromArea":{
+         "X":16,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":96,
+         "Y":608,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "rain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_rain_furniture.png",
+      "FromArea":{
+         "X":48,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":80,
+         "Y":624,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "rain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_storm_furniture.png",
+      "FromArea":{
+         "X":16,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":96,
+         "Y":608,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "storm"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/{{season}}_storm_furniture.png",
+      "FromArea":{
+         "X":48,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":80,
+         "Y":624,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "storm"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/greenrain_furniture.png",
+      "FromArea":{
+         "X":16,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":96,
+         "Y":608,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "greenrain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/greenrain_furniture.png",
+      "FromArea":{
+         "X":48,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":80,
+         "Y":624,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Weather": "greenrain"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/winter_snow_furniture.png",
+      "FromArea":{
+         "X":16,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":96,
+         "Y":608,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Season": "winter",
+             "Weather": "snow"
+       }
+   },
+   {
+      "Action":"EditImage",
+      "Target":"Maps/townInterior",
+            "FromFile": "assets/winter_snow_furniture.png",
+      "FromArea":{
+         "X":48,
+         "Y":0,
+         "Width":16,
+         "Height":32
+      },
+      "ToArea":{
+         "X":80,
+         "Y":624,
+         "Width":16,
+         "Height":32
+      },
+      "When": {
+             "Season": "winter",
+             "Weather": "snow"
+       }
+   }
    ]
 }
